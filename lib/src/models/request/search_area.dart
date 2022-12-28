@@ -102,7 +102,7 @@ class SearchAreaBBOX extends SearchArea {
 
   @override
   String _toGeocode() {
-    return '$latitudeLeft,$longitudeLeft-$latitudeRight,$longitudeRight';
+    return '$latitudeLeft,$longitudeLeft~$latitudeRight,$longitudeRight';
   }
 
   @override
